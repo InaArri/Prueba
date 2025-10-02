@@ -10,8 +10,6 @@ build:
 runs-on: ubuntu-latest
 steps:
 - uses: actions/checkout@v3
-
-```
   - name: Set up Node.js
     uses: actions/setup-node@v3
     with:
@@ -30,4 +28,3 @@ steps:
       git add .
       git commit -m "Update [skip ci]" || exit 0
       git push
-```
